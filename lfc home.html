@@ -1,27 +1,173 @@
+
 <html>
 <head>
-<title>
-lfc home page
-</title>
+<title>education purpose</title>
 <style type="text/css">
-*{
-margin:0;
-padding:0;
-box-sizing:
-font-size:poppins;
+@import url(href="https://fonts.googleapis.com/css?family=Tangerine")>
+
+*
+{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+list-style: none;
+text-decoration: none;
+font-family: "poppins" , sans-serief;
 }
 
+body{
+min-height:100vh;
+min-width:400px;
+overflow:hidden;
+background:url(img1.jpg)no-repeat;
+background-position:center;
+background-size: cover;
+background-repeat:no repeat;
+margin:0;
+padding:0;
+
+}
+
+header{
+display:flex;
+align-items:center;
+justify-content: flex-end;
+width: 100% ;
+height:  80px;
+font-size:18px;
+padding:0 5%;
+color:#311822;
+}
+
+header .logo{
+color:#311822;
+font-size:2.5rem;
+font-weight: 700;
+text-transform:uppercase;
+margin-right:auto;
+}
+
+header nav{
+display:flex;
+align-items:center;
+}
+ header nav .menu{
+ display:flex;
+ align-items:center;
+ list-style:none;
+ }
+ 
+ header nav .menu li a {
+ display:relative;
+ color:#311822;
+ padding:10px;
+font-size:1rem;
+font-weight:600;
+margin-right:40px;
+border-radius:0.4rem;
+transition:color 0.4s ease;
+  }
+  nav .menu li a:hover{
+color : #fff;
+}
+
+header nav ion-icon{
+font-size:1.3rem;
+cursor:pointer;
+margin-right:30px;
+}
+
+.home{
+text-align:center;
+padding:0.5rem;
+color:#311822;
+}
+
+.home h1{
+text-transform:uppercase;
+font-size:4rem;
+font-weight:700;
+letter-spacing: 100x;
+color:#311822;'Tangerine', serif;
+font-family:;
+}
+.home h2{
+margin-bottom:-25px;
+font-size:1.8rem;
+font-weight:300;
+margin-bottom:-70px;
+color:#311822;
+}
+
+.home-content , h1,h2{
+animation : typewriter 5s steps(20);
+}
+
+@keyframes typewriter
+{
+0%{
+width: 0;
+}
+100% {
+width: 70%;
+}
+
+}
+
+.menu{
+animation : animateText 2s infinite;
+}
+
+@keyframes animateText
+{
+0%{
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+
+}
+
+.footer-container{
+margin: 0 , auto;
+font-size :14px;
+position:center;
+}
 
 </style>
 </head>
-<body>
-<section class="time-line">
-<div class="container">
-<div class="text-content">
-<h2>introduction</h2>
-<p>jdjdjjd mskjsjdndd sjdjjdjdbd jsiidgdidbdjdhxh dnxjjxdbjxbdhd xjxbxjxbjxxbjxbdjxnbd</p>
+<header>
+<div class="logo">
+lfc
 </div>
+<nav>
+<ul class="menu">
+<li><a href="lfc.html" >Home</a></li>
+<li><a href="about.html" >about</a></li>
+<li><a href="contact.html" >contact</a></li>
+</ul>
+<ion-icon name="list-outline"></ion-icon>
+</nav>
+</header>
+<section class="home">
+<div class="Home-content">
+<h2>welcome to</h2>
+<h1>Land for cutlivation</h1>
 </div>
 </section>
+
+
+<footer>
+<div class="footer container">
+&copy; 2025 your company name . All rights preserved
+</div>
+</footer>
+
+<script type="text/javascript">
+
+</script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+ <script nomodule src="https://unpkg.com/ionicons@7.1:0.0/dist/ionicons/ionicons.
 </body>
-</html>
+   </html>  
